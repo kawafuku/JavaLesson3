@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         Human Human = new Human("ヒロアキ", 24,"ゲーム");
         Human.name = "ヒロアキ";
+
         Human.age =24;
         Human.hobby = "ゲーム";
 

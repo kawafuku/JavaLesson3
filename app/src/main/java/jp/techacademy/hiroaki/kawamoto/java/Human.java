@@ -22,7 +22,7 @@ class Human implements thinkable{
 
     }
 
-    public void say(){
+    public void say(){/*メンバ変数*/
         Log.d("javatest", this.name + "(" + this.age + "歳)");}
 
     public void think(){
