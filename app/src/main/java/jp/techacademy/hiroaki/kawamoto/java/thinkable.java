@@ -7,7 +7,9 @@ import android.util.Log;
  */
 
 public interface thinkable {
+
     public void think();
-}
+    };
+
 
 
