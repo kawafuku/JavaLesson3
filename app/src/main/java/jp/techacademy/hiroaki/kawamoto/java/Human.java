@@ -15,22 +15,23 @@ import android.util.Log;
 
     class Human extends Animal implements thinkable {
 
-    @Override
-    public void think(){
-        Log.d("javatest","私は"+ hobby + "について考える。");
-    }
-
-
+    String hobby;
 
 
         public Human(String name, int age, String hobby) {
-            name = "";
-            age = 0;
-            hobby = "";
 
+            this.name = name;
+            this.age = age;
+            this.hobby = hobby;
         }
 
-        public void say() {/*メンバ変数*/
-            Log.d("javatest", this.name + "(" + this.age + "歳)");}
+
+    @Override
+    public void think() {
+        Log.d("javatest","私の名前は" + name + "です。" + "年は" + age + "歳です。");
+    }
+
+    public void say() {/*メンバ変数*/
+            Log.d("javatest", "私は" + hobby + "について考える");}
 
         }

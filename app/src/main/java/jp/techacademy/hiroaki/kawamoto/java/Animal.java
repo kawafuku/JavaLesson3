@@ -7,10 +7,8 @@ import android.util.Log;
  */
 
 abstract class Animal {
-    String name;
-    int age;
-    String hobby;
-
+    String name = "ヒロアキ";
+    int age =24;
 
     abstract public void say();
 }
